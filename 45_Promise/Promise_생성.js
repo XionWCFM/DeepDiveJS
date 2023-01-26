@@ -22,3 +22,4 @@ const promiseGet = url => {
 
 promiseGet('urlurlrurl')
 //promiseGet 함수는 promise를 반환합니다.
+
