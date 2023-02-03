@@ -3,3 +3,15 @@
 import { pi, square, Person} from './lib.mjs'
 
 console.log(pi)
+
+import * as lib from './lib.mjs'
+
+console.log(lib.pi)
+//from 파일에서 export한 모든 식별자를 객체로 담아온다.
+
+
+import {pi as PI, square as sq} from './lib.mjs'
+//식별자 이름을 변경해서 import한다.
+
+console.log(PI)
+
